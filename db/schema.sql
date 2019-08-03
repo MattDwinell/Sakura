@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS Gardening_db;
+CREATE DATABASE Gardening_db;
