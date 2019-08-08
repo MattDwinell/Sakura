@@ -1,0 +1,25 @@
+.dropdown-toggle,
+.dropdown-item {
+  cursor: pointer;
+}
+
+img {
+  object-fit: cover;
+  height: 45px;
+  width: 45px;
+}
+
+nav {
+  background-color: palevioletred !important;
+}
+
+form button {
+  color: brown;
+  border: solid 1pt plum;
+  background-color: pink;
+}
+
+form button:hover {
+  background-color: burlywood;
+  color: whitesmoke;
+}
