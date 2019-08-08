@@ -16,6 +16,11 @@ const UserProfiles = sequelize.define('UserProfiles',{
         default: 'Gardener'
 
     },
+    email: {
+        type: Sequelize.STRING,
+        allowNull: true,
+        default: 'none'
+    },
     location: {
         type: Sequelize.STRING,
         allowNull: false
