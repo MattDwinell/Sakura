@@ -17,3 +17,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+
+Note:
+
+If 'ng <command>' doesn't work, try 'npx ng <command>'
