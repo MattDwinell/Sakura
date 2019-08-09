@@ -1,0 +1,23 @@
+{
+  "name": "sakura",
+  "version": "1.0.0",
+  "description": "social gardening app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattDwinell/Sakura.git"
+  },
+  "author": "matthew dwinell katie humburg suraj patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattDwinell/Sakura/issues"
+  },
+  "homepage": "https://github.com/MattDwinell/Sakura#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^5.12.3"
+  }
+}
