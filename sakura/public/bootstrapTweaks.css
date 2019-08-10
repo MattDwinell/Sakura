@@ -1,0 +1,55 @@
+.dkpink-bg{
+    background-color: #E37DB0;
+}
+.dkpink-txt{
+    color: rgb(235, 49, 179);
+}
+.ltpink-bg{
+    background-color: #F2B6CC
+}
+body{
+    background-image: url('./assets/bg.png');
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.about-us{
+    margin: auto;
+    padding-top: 50px;
+    display: block;
+    text-align: center;
+}
+.register{
+    max-width: 800px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+.lead{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5px;
+}
+.ten{
+    margin-right: 10%;
+}
+.plants{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+.plants-title{
+    width: 20%;
+}
+.types-of-plants{
+    width: 80%;
+}
+.other-plants{
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
