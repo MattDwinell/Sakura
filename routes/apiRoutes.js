@@ -1,4 +1,3 @@
-const sequelize = require("sequelize");
 const UserProfiles = require("../models/userprofiles");
 const Messages = require("../models/messages");
 const Connections = require("../models/connections");
@@ -167,8 +166,7 @@ UserProfiles.create({
 })
     })
 
-//updating a user's profile:
-
+//updating a user's profile
 app.put("/api/userProfiles/:user", (req, res)=>{
     UserProfiles.update(req.body,{
         where: {
@@ -176,6 +174,17 @@ app.put("/api/userProfiles/:user", (req, res)=>{
         }
     }).then((success)=>{
         return res.json(success);
+    })
+})
+
+//deleting a user's profile:
+app.delete("/api/userProfiles/:user", (req, res)=>{
+    UserProfiles.destroy(req.body, {
+        where:{
+            id: req.params.id
+        }
+    }).then((result)=>{
+        return res.json(result);
     })
 })
 
