@@ -18,6 +18,6 @@
   "homepage": "https://github.com/MattDwinell/Sakura#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "sequelize": "^5.12.3"
+    "sequelize": "^5.15.1"
   }
 }
